@@ -110,8 +110,8 @@ public class TrashFragment extends Fragment {
             /// END API ///
 
             public void pie(int trash) {
-                int vol = trash;
-                int leeg = 50 - trash;
+                int leeg = trash;
+                int vol = 50 - trash;
                 System.out.println(vol);
                 System.out.println(leeg);
 
